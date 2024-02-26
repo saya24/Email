@@ -18,8 +18,8 @@ public class App {
 
 		String message = "";
 		String subject = "Ta-da!";
-		String to = "saipriya24194@gmail.com";
-		String from = "scoupsmira@gmail.com";
+		String to = "sariya24194@gmail.com";
+		String from = "scoupira@gmail.com";
 
 		sendAttach(message,subject,to,from);
 	}
@@ -39,7 +39,7 @@ public class App {
 		Session session=Session.getInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {				
-				return new PasswordAuthentication("scoupsmira@gmail.com", "**********");
+				return new PasswordAuthentication("scoumira@gmail.com", "**********");
 			}
 
 		});
